@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import WebsiteController from './WebsiteController'
 import reportWebVitals from './reportWebVitals';
+import Transfer from './Transfer'
 
 ReactDOM.render(
   <React.StrictMode>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"></link>
-    <WebsiteController/>
+    <Transfer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
